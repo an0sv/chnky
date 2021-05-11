@@ -1,0 +1,35 @@
+
+#chnky-status-table {
+    margin-top: 40px;
+}
+
+#chnky-status-table th > div {
+    transform: 
+      translate(6px, -9px)      
+      /* 45 is really 360 - 45 */
+      rotate(315deg);
+    width: 30px;
+}
+
+#chnky-status-table td {
+    padding: 0px;
+    text-align:center;
+}
+
+.channel-name {
+    color: slategrey;
+}
+
+.chnky-ok {
+    background-color: greenyellow;
+    width:24px;
+    height: 24px;
+}
+
+.chnky-error {
+    background-color: red;
+    width:24px;
+    height: 24px;
+}
+
+
